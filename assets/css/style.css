@@ -23,7 +23,7 @@ body{
     transform: scale(1.05);
 }
 
-.agpiano{
+.whitepiano{
     width: 40px;
     height: 230px;
     background-color: #FFF;
@@ -35,7 +35,7 @@ body{
     outline: none;
 }
 
-.agpiano.CSS{
+.whitepiano.CSS{
     box-shadow: inset 0px 0px 30px 20px rgba(13, 240, 236, .5);
     color: rgb(100,87,0);
 }
@@ -50,7 +50,7 @@ div{
     color: #FFF;
 }
 
-.qarapiano{
+.blackpiano{
     position: absolute;
     width: 24px;
     height: 130px;
@@ -62,7 +62,7 @@ div{
     cursor: pointer;
 }
 
-.qarapiano.Active{
+.blackpiano.Active{
     background: rgb(4, 138, 135);
     
 }
@@ -134,7 +134,7 @@ div{
     left: 850px;
 }
 
-#muellif{
+#aftor{
     position: absolute;
     display: flex;
     margin-top: 350px;
@@ -143,6 +143,6 @@ div{
     font: 500 20px 'Libre Baskerville', serif;;
 
 }
-#muellif:hover{
+#aftor:hover{
     color: aquamarine;
 }
